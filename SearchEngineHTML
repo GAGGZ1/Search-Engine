@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Engine - Your Gateway to Knowledge</title>
+    <title>com.gagan.Search Engine - Your Gateway to Knowledge</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Search Engine</h1>
+        <h1>Welcome to the com.gagan.Search Engine</h1>
         <p>Find what you need quickly and easily!</p>
     </header>
     <main>
         <section>
-            <form action="Search" method="get">
+            <form action="com.gagan.Search" method="get">
                 <input type="text" name="keyword" placeholder="Enter your search term">
-                <button type="submit">Search</button>
+                <button type="submit">com.gagan.Search</button>
             </form>
         </section>
         <section>
             <form action="History" method="get">
-                <button type="submit">View Search History</button>
+                <button type="submit">View com.gagan.Search History</button>
             </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Search Engine. Made with ❤️ by <a href="https://www.linkedin.com/in/gaganchauhan/">Gagan Chauhan</a>.</p>
+        <p>&copy; 2024 com.gagan.Search Engine. Made with ❤️ by <a href="https://www.linkedin.com/in/gaganchauhan/">Gagan Chauhan</a>.</p>
     </footer>
 </body>
 </html>

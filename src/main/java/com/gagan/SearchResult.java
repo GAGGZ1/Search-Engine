@@ -1,3 +1,5 @@
+package com.gagan;
+
 public class SearchResult {
     String title;
     String link;

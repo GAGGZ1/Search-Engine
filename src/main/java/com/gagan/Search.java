@@ -1,3 +1,4 @@
+package com.gagan;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -7,7 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -32,12 +32,13 @@ public class Search extends HttpServlet {
                 System.out.println(result.getTitle()+"\n"+result.getLink()+"\n");
 
             }
-
+            request.setAttribute("results",results);
+            request.getRequestDispatcher("Search.jsp").forward(request,response);
         response.setContentType("text/html");
         PrintWriter out =response.getWriter();
 
     }
-    catch (SQLException sqlException){
+    catch (SQLException | ServletException sqlException){
            sqlException.printStackTrace();
        }
     }
