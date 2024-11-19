@@ -13,7 +13,7 @@
            %>
            <tr>
                 <td><%out.println(result.getTitle());%></td>
-                <td><%out.println(result.getLink());%></td>
+                <td><a href="<%out.println(result.getLink());%>"><%out.println(result.getLink());%></td>
            </tr>
            <%
            }
