@@ -27,7 +27,7 @@ public class Search extends HttpServlet {
                 searchResult.setLink(resultSet.getString("pageLink"));
                 results.add(searchResult);
             }
-            //printing in consol
+            //printing in console
             for(SearchResult result:results){
                 System.out.println(result.getTitle()+"\n"+result.getLink()+"\n");
 
