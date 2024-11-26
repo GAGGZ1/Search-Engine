@@ -1,0 +1,17 @@
+create database searchengineapp;
+show databases;
+use searchengineapp;
+create table myTable(
+name varchar(200),
+age integer,
+phoneno integer);
+select * from myTable;
+insert into myTable values("Gagan",21,233342);
+insert into myTable values("Anurag",14,2645342);
+
+create table pages(
+	pageTitle varchar(200),
+    pageLink text,
+    pageText mediumtext
+    );
+    select * from pages;
